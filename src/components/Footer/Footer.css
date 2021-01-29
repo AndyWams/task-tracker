@@ -19,3 +19,13 @@ footer p {
 footer .container p img {
   width: 34px;
 }
+footer a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-decoration: none !important;
+  color: #fff;
+}
+
+footer a:hover {
+  color: springgreen;
+}

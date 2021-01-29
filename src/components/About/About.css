@@ -1,0 +1,28 @@
+.about__wrapper {
+  height: 100vh;
+}
+.about__wrapper .container {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about__wrapper h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+.about__wrapper p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.about__wrapper a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: steelblue;
+}
