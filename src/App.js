@@ -83,16 +83,13 @@ function App() {
   return (
     <Router>
       <main className="main">
+        <Header onDisplay={() => setShowForm(!showForm)} showForm={showForm} />
         <Route
           path="/"
           exact
-          render={(props) => (
+          render={() => (
             <>
               <div className={`main__wrapper  ${showForm ? "split" : "full"}`}>
-                <Header
-                  onDisplay={() => setShowForm(!showForm)}
-                  showForm={showForm}
-                />
                 {showForm && <TaskForm addTask={addTask} />}
                 {tasks.length > 0 ? (
                   <Tasks
@@ -112,7 +109,7 @@ function App() {
           )}
         />
 
-        <Route path="/about" component={About} />
+        <Route path="/about" render={() => <About />} />
         <Footer />
       </main>
     </Router>
