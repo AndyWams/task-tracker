@@ -1,0 +1,23 @@
+header {
+  padding: 2em;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  border-bottom: 1px solid lightsteelblue;
+  background: #000000cf;
+  z-index: 2;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  color: #03a9f4;
+  font-weight: bold;
+  margin: 0;
+}

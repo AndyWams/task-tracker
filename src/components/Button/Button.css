@@ -1,0 +1,32 @@
+button {
+  border: none;
+  margin: 0px;
+  border-radius: 5px;
+  padding: 8px 24px;
+  font-size: 14px;
+  /* background: #03a9f4c4; */
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.btn--primary {
+  background: #03a9f4c4;
+  transition: 0.2s ease-out;
+}
+.btn--primary:hover {
+  background: #03a9f4;
+}
+
+.btn--secondary {
+  background: #000;
+}
+.btn--outline {
+  background: transparent;
+  border: 1px solid #fff;
+}

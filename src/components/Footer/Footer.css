@@ -1,0 +1,21 @@
+footer {
+  background: #000;
+  position: fixed;
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0em;
+  color: #fff;
+  font-size: 14px;
+}
+
+footer .container p img {
+  width: 34px;
+}
